@@ -1,0 +1,2 @@
+add the libSDL2_image.a, libSDL2.a and libSDL2main.a to this folder
+

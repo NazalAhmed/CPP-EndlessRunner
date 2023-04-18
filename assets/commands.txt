@@ -1,0 +1,10 @@
+g++ -I assets/include -L assets/lib -c code/Player.cpp -o assets/o_files/Player.o
+g++ -I assets/include -L assets/lib -c code/BackGround.cpp -o assets/o_files/BackGround.o
+g++ -I assets/include -L assets/lib -c code/Enemies.cpp -o assets/o_files/Enemies.o
+
+g++ -I assets/include -L assets/lib code/main.cpp assets/o_files/Player.o assets/o_files/BackGround.o assets/o_files/Enemies.o -o assets/executable/program -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
+
+
+
+assets/executable/program.exe
+
